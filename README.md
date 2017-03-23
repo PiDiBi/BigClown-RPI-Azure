@@ -26,7 +26,7 @@ Coressponding data to send to azure after parsing in RPI
 ## Setup Device in Azure IoTHub
 ![IoT Hub Devices](https://github.com/PiDiBi/BigClown-RPI-Azure/raw/master/IoTHubDevice.png)
 
-### use [Device Explorer](https://github.com/PiDiBi/BigClown-RPI-Azure/raw/master/DeviceExplorerMonitor.png) to monitor that data are correctly received by IoTHub
+### use [Device Explorer](https://github.com/Azure/azure-iot-sdk-csharp/tree/master/tools/DeviceExplorer) to monitor that data are correctly received by IoTHub
 ![device exlorer](https://github.com/PiDiBi/BigClown-RPI-Azure/raw/master/DeviceExplorerMonitor.png)
 
 
