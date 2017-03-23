@@ -8,6 +8,20 @@
 - configure Azure IoT Hub and create device there, get device key/name and fill it in code
 - consume from IoT Hub with stream analytics
 
+## Sample Data
+Data from serial line:
+```
+["base/thermometer/i2c0-49", {"temperature": [25.25, "\u2103"]}]
+["base/light/-", {"state": true}]
+["remote/push-button/-", {"event-count": 16}]
+```
+Coressponding data to send to azure after parsing in RPI
+```
+{"address":"base","name":"thermometer","id":"i2c0-49","data":{"temperature":[25.25,"℃"]}}
+{"address":"base","name":"light","id":"-","data":{"state":true}}
+{"address":"remote","name":"push-button","id":"-","data":{"event-count":16}}
+```
+
 ## Stream Analytics
 use following code for parsing data from IoT Hub
 ```sql
