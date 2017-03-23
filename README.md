@@ -1,6 +1,6 @@
 # BigClown Core - RPI - Azure Connection
 - You need to have BigClown Core unit and connect it to Raspberry PI via USB
-- upload [firmware]:https://github.com/bigclownlabs/bcp-wireless-circus/releases/tag/v1.0.0  to core unit
+- upload [firmware](https://github.com/bigclownlabs/bcp-wireless-circus/releases/tag/v1.0.0)  to core unit
 - Raspberry PI 2/3 with Win 10 IoT Core and this project
 - you need Microsoft Azure subscription
 - configure Azure IoT Hub and create device there, get device key/name and fill it in code
