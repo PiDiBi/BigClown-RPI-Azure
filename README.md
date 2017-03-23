@@ -23,6 +23,12 @@ Coressponding data to send to azure after parsing in RPI
 {"address":"base","name":"light","id":"-","data":{"state":true}}
 {"address":"remote","name":"push-button","id":"-","data":{"event-count":16}}
 ```
+## Setup Device in Azure IoTHub
+![IoT Hub Devices](https://github.com/PiDiBi/BigClown-RPI-Azure/raw/master/IoTHubDevice.png)
+
+### use [Device Explorer](https://github.com/PiDiBi/BigClown-RPI-Azure/raw/master/DeviceExplorerMonitor.png) to monitor that data are correctly received by IoTHub
+![device exlorer](https://github.com/PiDiBi/BigClown-RPI-Azure/raw/master/DeviceExplorerMonitor.png)
+
 
 ## Stream Analytics
 use following code for parsing data from IoT Hub
