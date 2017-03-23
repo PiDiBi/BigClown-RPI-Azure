@@ -26,8 +26,8 @@ namespace BackgroundApplication1
 
         // iot hub
         static DeviceClient deviceClient;
-        static string iotHubUri = "bigclowndabrues.azure-devices.net";
-        static string deviceKey = "6Xde7LTOg6oSnowjCFPjNgbnrKxEC2rwZ6YZM71F78w=";
+        static string iotHubUri = "xxx.azure-devices.net";
+        static string deviceKey = "xxx";
         static string deviceName = "cloun";
 
         public void Run(IBackgroundTaskInstance taskInstance)

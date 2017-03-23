@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundApplication1", "BackgroundApplication1\BackgroundApplication1.csproj", "{CF62DE01-2B4D-449B-8C9C-E7F6D572C617}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigclownRpiAzure", "BackgroundApplication1\BigclownRpiAzure.csproj", "{CF62DE01-2B4D-449B-8C9C-E7F6D572C617}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4EFC863C-DF03-4CC6-8A05-F92D5A2A2D98}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
