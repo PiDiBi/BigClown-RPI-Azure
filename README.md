@@ -8,6 +8,8 @@
 - configure Azure IoT Hub and create device there, get device key/name and fill it in code
 - consume from IoT Hub with stream analytics
 
+![setup](https://github.com/PiDiBi/BigClown-RPI-Azure/raw/master/setup.jpg)
+
 ## Sample Data
 Data from serial line:
 ```
