@@ -17,7 +17,7 @@ SELECT
     CASE WHEN dataReading.PropertyName = 'temperature' THEN GetArrayElement(dataReading.PropertyValue, 0) ELSE dataReading.PropertyValue END as dataValue,     
     [input].data
 INTO
-    [powerbilocal]
+    [output]
 FROM
     [input]
 CROSS APPLY GetRecordProperties([input].data) AS dataReading
